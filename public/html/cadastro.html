@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+  <link id="theme-link" rel="stylesheet" type="text/css" href="../css/style.css">
+
+
+</head>
+<body>
+  <header>
+    <div class = "cabecalho"></div>
+
+  </header>
+
+  <section class="container-cadastro">
+            <form class="form-cadastro" id="meuForm">
+                <div class="campo-input-login">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" autocomplete="name" required> 
+                </div>
+                <div class="campo-input-login">
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" required>
+                </div>
+                <button class="enviar-fale" type="submit" id="btGravar">Cadastrar</button>
+            </form>
+        </section>
+
+
+
+  <script type = "module" src="../js/cabecalho.js"></script>
+  <script type = "module" src="../js/cadastro.js"></script>
+
+</body>
+</html>

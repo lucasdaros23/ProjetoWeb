@@ -1,0 +1,78 @@
+#caixaLogin {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 1.5rem 2.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#caixaLogin h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.campo-input-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.campo-input-login input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.campo-input-login input:focus {
+  outline: none;
+  border-color: #999;
+  background-color: #fff;
+}
+
+.enviar-fale {
+  padding: 10px 16px;
+  background-color: #cfcfcf;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  min-width: 120px;
+}
+
+.enviar-fale:hover {
+  background-color: #424242;
+  color: white;
+}
+
+#caixaLogin2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#caixaLogin2 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#caixaLogin2 a:hover {
+  color: #424242;
+}

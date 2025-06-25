@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  flex-wrap: nowrap;
+}
+
+#sair-btn,
+.cabecalho a {
+  white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+#sair-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.cabecalho a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container img {
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+

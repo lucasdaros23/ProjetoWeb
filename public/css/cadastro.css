@@ -1,0 +1,60 @@
+.container-cadastro {
+  width: 100%;
+  max-width: 500px;
+  margin: 3rem auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.campo-input-login {
+  width: 100%;
+  max-width: 500px;
+}
+
+.campo-input-login input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.campo-input-login input:focus {
+  outline: none;
+  border-color: #999;
+  background-color: #fff;
+}
+
+.enviar-fale {
+  width: 100%;
+  align-self: center;
+  max-width: 200px;
+  padding: 12px 0;
+  background-color: #cfcfcf;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enviar-fale:hover {
+  background-color: #424242;
+  color: white;
+}

@@ -1,0 +1,71 @@
+
+#caixaCarrinho {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#caixaCarrinho > div {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#caixaCarrinho h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#caixaCarrinho p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+#caixaCarrinho p strong {
+  font-size: 1.1rem;
+}
+
+#caixaCarrinho hr {
+  margin-top: 0.7rem;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.remover {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 6px 12px;
+  background-color: #cfcfcf;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.remover:hover {
+  background-color: #424242;
+  color: white;
+}
+
+.total-carrinho {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #ccc;
+}
+
+

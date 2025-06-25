@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos</title>
+  <link rel="stylesheet" type="text/css" href="../css/produtos.css">
+  <link id="theme-link" rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="cabecalho"></div>
+  </header>
+
+  <section class="hero-background">
+    <div class="hero-catalogo">
+      <h1>Confira abaixo nossos produtos!</h1>
+      <div id="filtro-categorias">
+        <button id="ordenar-alfabetico" class="btn">Ordem Alfabética</button>
+        <button id="ordenar-preco-crescente" class="btn">Preço Crescente</button>
+        <button id="ordenar-preco-decrescente" class="btn">Preço Decrescente</button>
+        <button id="ordenar-recentes" class="btn">Mais recentes</button>
+        <button id="ordenar-antigos" class="btn">Mais antigos</button>
+      </div>
+
+      <br><br>
+      <a href="addproduto.html">
+        <button class="enviar-fale">Adicionar Produto</button>
+      </a>
+    </div>
+  </section>
+
+  <div class="container-produtos">
+    <div id="galeria-produtos" class="galeria-produtos">
+    </div>
+  </div>
+
+  <script type="module" src="../js/cabecalho.js"></script>
+  <script type="module" src="../js/produtos.js"></script>
+</body>
+</html>

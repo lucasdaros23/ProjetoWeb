@@ -1,0 +1,262 @@
+{
+  "Cliente": {
+    "1": {
+      "nome": "Lucas Silva",
+      "email": "lucas.silva@email.com",
+      "telefone": "11987654321"
+    },
+    "2": {
+      "nome": "Ana Costa",
+      "email": "ana.costa@email.com",
+      "telefone": "11976543210"
+    },
+    "3": {
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@email.com",
+      "telefone": "21998765432"
+    },
+    "4": {
+      "nome": "Marina Lima",
+      "email": "marina.lima@email.com",
+      "telefone": "31987654321"
+    },
+    "5": {
+      "nome": "Juliana Rocha",
+      "email": "juliana.rocha@email.com",
+      "telefone": "41976543210"
+    },
+    "6": {
+      "nome": "Paulo Mendes",
+      "email": "paulo.mendes@email.com",
+      "telefone": "51999887766"
+    },
+    "7": {
+      "nome": "Renata Alves",
+      "email": "renata.alves@email.com",
+      "telefone": "61988776655"
+    },
+    "8": {
+      "nome": "Thiago Reis",
+      "email": "thiago.reis@email.com",
+      "telefone": "71977665544"
+    },
+    "9": {
+      "nome": "Beatriz Nunes",
+      "email": "beatriz.nunes@email.com",
+      "telefone": "81966554433"
+    },
+    "10": {
+      "nome": "Eduardo Melo",
+      "email": "eduardo.melo@email.com",
+      "telefone": "91955443322"
+    }
+  },
+  "Produto": {
+    "1": {
+      "Nome": "Frango Light",
+      "Preco": 19.9,
+      "Estoque": 50
+    },
+    "2": {
+      "Nome": "Carne Magra",
+      "Preco": 21.5,
+      "Estoque": 40
+    },
+    "3": {
+      "Nome": "Veggie Mix",
+      "Preco": 18.0,
+      "Estoque": 30
+    },
+    "4": {
+      "Nome": "Peixe Fit",
+      "Preco": 22.75,
+      "Estoque": 25
+    },
+    "5": {
+      "Nome": "Tofu Power",
+      "Preco": 17.8,
+      "Estoque": 20
+    },
+    "6": {
+      "Nome": "Frango Grelhado",
+      "Preco": 20.9,
+      "Estoque": 60
+    },
+    "7": {
+      "Nome": "Salada Verde",
+      "Preco": 15.5,
+      "Estoque": 35
+    },
+    "8": {
+      "Nome": "Carne Desfiada",
+      "Preco": 23.4,
+      "Estoque": 45
+    },
+    "9": {
+      "Nome": "Quinoa Bowl",
+      "Preco": 19.7,
+      "Estoque": 30
+    },
+    "10": {
+      "Nome": "Fit Mexicano",
+      "Preco": 21.0,
+      "Estoque": 28
+    }
+  },
+  "Pedido": {
+    "1": {
+      "fkCliente": 1,
+      "Data": "2025-06-01T12:00:00",
+      "Status": "Pendente"
+    },
+    "2": {
+      "fkCliente": 2,
+      "Data": "2025-06-02T13:00:00",
+      "Status": "Entregue"
+    },
+    "3": {
+      "fkCliente": 3,
+      "Data": "2025-06-03T14:00:00",
+      "Status": "Entregue"
+    },
+    "4": {
+      "fkCliente": 4,
+      "Data": "2025-06-04T15:00:00",
+      "Status": "Entregue"
+    },
+    "5": {
+      "fkCliente": 5,
+      "Data": "2025-06-05T16:00:00",
+      "Status": "Entregue"
+    },
+    "6": {
+      "fkCliente": 6,
+      "Data": "2025-06-06T11:00:00",
+      "Status": "Entregue"
+    },
+    "7": {
+      "fkCliente": 7,
+      "Data": "2025-06-07T12:30:00",
+      "Status": "Entregue"
+    },
+    "8": {
+      "fkCliente": 8,
+      "Data": "2025-06-08T13:45:00",
+      "Status": "Entregue"
+    },
+    "9": {
+      "fkCliente": 9,
+      "Data": "2025-06-09T14:20:00",
+      "Status": "Pendente"
+    },
+    "10": {
+      "fkCliente": 10,
+      "Data": "2025-06-10T15:10:00",
+      "Status": "Entregue"
+    }
+  },
+  "itensPedido": {
+    "1": {
+      "fkPedido": 1,
+      "fkProduto": 1,
+      "quantidade": 2,
+      "precoUnit": 19.9
+    },
+    "2": {
+      "fkPedido": 2,
+      "fkProduto": 2,
+      "quantidade": 1,
+      "precoUnit": 21.5
+    },
+    "3": {
+      "fkPedido": 3,
+      "fkProduto": 3,
+      "quantidade": 3,
+      "precoUnit": 18.0
+    },
+    "4": {
+      "fkPedido": 4,
+      "fkProduto": 4,
+      "quantidade": 1,
+      "precoUnit": 22.75
+    },
+    "5": {
+      "fkPedido": 5,
+      "fkProduto": 5,
+      "quantidade": 2,
+      "precoUnit": 17.8
+    },
+    "6": {
+      "fkPedido": 6,
+      "fkProduto": 6,
+      "quantidade": 1,
+      "precoUnit": 20.9
+    },
+    "7": {
+      "fkPedido": 7,
+      "fkProduto": 7,
+      "quantidade": 1,
+      "precoUnit": 15.5
+    },
+    "8": {
+      "fkPedido": 8,
+      "fkProduto": 8,
+      "quantidade": 2,
+      "precoUnit": 23.4
+    },
+    "9": {
+      "fkPedido": 9,
+      "fkProduto": 9,
+      "quantidade": 1,
+      "precoUnit": 19.7
+    },
+    "10": {
+      "fkPedido": 10,
+      "fkProduto": 10,
+      "quantidade": 3,
+      "precoUnit": 21.0
+    }
+  },
+  "Pagamento": {
+    "1": {
+      "fkPedido": 2,
+      "valor": 21.5,
+      "dataPagamento": "2025-06-02T14:00:00"
+    },
+    "2": {
+      "fkPedido": 3,
+      "valor": 54.0,
+      "dataPagamento": "2025-06-03T15:00:00"
+    },
+    "3": {
+      "fkPedido": 4,
+      "valor": 22.75,
+      "dataPagamento": "2025-06-04T16:00:00"
+    },
+    "4": {
+      "fkPedido": 5,
+      "valor": 35.6,
+      "dataPagamento": "2025-06-05T17:00:00"
+    },
+    "5": {
+      "fkPedido": 6,
+      "valor": 20.9,
+      "dataPagamento": "2025-06-06T12:00:00"
+    },
+    "6": {
+      "fkPedido": 7,
+      "valor": 15.5,
+      "dataPagamento": "2025-06-07T13:00:00"
+    },
+    "7": {
+      "fkPedido": 8,
+      "valor": 46.8,
+      "dataPagamento": "2025-06-08T14:00:00"
+    },
+    "8": {
+      "fkPedido": 10,
+      "valor": 63.0,
+      "dataPagamento": "2025-06-10T16:00:00"
+    }
+  }
+}
